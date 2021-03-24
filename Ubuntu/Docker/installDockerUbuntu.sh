@@ -60,4 +60,5 @@ checkStatusAndExitWithMessage $? "err 17" $?
 
 printGreen "End of the script"
 printYellow "Please reboot the system"
+sudo reboot now
 exit 0
