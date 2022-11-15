@@ -39,7 +39,7 @@ fi
 
 printGreen "Installing some dependencies"
 sudo apt update
-sudo apt install curl
+sudo apt install -y curl
 checkStatusAndExitWithMessage $? "err 6" $?
 
 printGreen "Adding docker repo"
